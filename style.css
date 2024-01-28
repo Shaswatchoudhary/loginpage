@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.wrapper {
+    max-width: 650px;
+    width: 100%;
+    background: white;
+    margin: 50px auto;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.125);
+    padding: 30px;
+    border-radius: 1em;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to top left, #fe1e50 0%, #282881 100%) 1;
+}
+
+.wrapper .title {
+    font-size: 28px;
+    font-weight: 900;
+    margin-bottom: 25px;
+    color: #fe1e50;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form {
+    width: 100%;
+
+}
+
+.wrapper .form .inputfield .btn:hover {
+    background: linear-gradient(to top left, #fe1e50 0%, #282881 100%);
+}
